@@ -1,67 +1,74 @@
-h1 {
-	font-size: 32px;
-  font-family: Garamond;
-  margin-bottom: -18px;
-     
 
+
+
+
+.main {
+  width: 850px;
+  margin: 10px auto 0 auto;
+  font-size: 18px;
+  text-align: left;
 }
 
-h2 {
-	font-size: 18px;
-  font-family: Garamond;
-    
-
-}
-
-h3 {
-	font-size: 16px;
-  font-family: Garamond;
-   
-
-}
-
-
-
-h4 {  
-
-font-size: 16px;
-font-family: Garamond;
-	
-  margin-top: 1px;
-  margin-bottom: 5px;
-  margin-left: 1px;
-  margin-right: 1px
-}
-
-.contact {
-background-color: #48c9b0;
-width: 800px;
+body {
+  background-color: #FFF5EE;
+  font-family:  Arial, sans-serif;
 }
 
 p {
   padding: 1px; 
-  margin-top: 1px;
-  margin-bottom: 1px;
-  margin-left: 1px;
-  margin-right: 1px
-  font-family: Garamond;
-
-}
-
-ol {
-
-	  padding: 1px; 
-  margin-top: 1px;
-  margin-bottom: 1px;
-  margin-left: 1px;
-  margin-right: 1px
+  margin: 1px 1px 1px 0px;
+  font-family: Arial, sans-serif;
 }
 
 
-li {  padding: 1px; 
-  margin-top: 1px;
-  margin-bottom: 1px;
-  margin-left: 1px;
-  margin-right: 1px;
-width: 600px;
-  }
+li {  
+  width: 600px;
+  padding: 1px; 
+  margin: 0 0 0 30px;
+  font-size: 18px;
+}
+
+hr {
+  width: 800px;
+}
+
+.roundedcorners {
+  background-color: #ADD8E6;
+  border: 1px solid #ADD8E6;
+  border-radius: 15px;
+  width: 350px;
+  padding: 8px 8px 8px 20px;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.header {
+  background-color: #ADD8E6;
+  border: 5px solid #ADD8E6;
+  border-radius: 15px;
+  width: 825px;
+  padding: 8px;
+  margin: 10px auto 0 auto;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+h1 {
+  margin: 0 0 0 50px; 
+  font-size: 22px;
+}
+
+
+h2 {  
+  margin: 1px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.degree {
+  margin: 0 0 0 50px; 
+}
+
